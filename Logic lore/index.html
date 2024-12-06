@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Logiclore Assistant</title>
+  </head>
+  <body>
+    <div class="screen">
+      <nav>
+        <h1>Code Wiz</h1>
+        <div class="right-nav">
+          <div class="contact-btn">
+            Contact us<span class="material-symbols-outlined">
+              north_east
+            </span>
+          </div>
+          <span class="material-symbols-outlined themeToggler"> settings </span>
+        </div>
+      </nav>
+      <main>
+        <div class="wrapper">
+          <header style="text-align: center" class="greet hide">
+            Hey there,<br />
+            How can i help perfect your code today?
+          </header>
+
+          <section class="chats">
+            <div class="msg botmsg">
+              <p class="message-text">Hello 👋 ! How can i assist you today?</p>
+            </div>
+            <!-- <div class="msg usermsg">
+              <p>
+                I wanna ask you some coding problems can u help me to resolve
+                them.
+              </p>
+            </div> -->
+          </section>
+          <section class="prompt">
+            <form action="#" class="prompt_form" novalidate>
+              <div class="input-wrapper">
+                <textarea
+                  placeholder="ask your query . . ."
+                  class="message-input resize"
+                  required
+                ></textarea>
+                <!-- <input
+                  name="input"
+                  type="text"
+                  placeholder="ask your query . . ."
+                  class="message-input"
+                  required
+                /> -->
+                <!-- <textarea name="prompt-holder" id="user-input" placeholder="ask your query . . ."></textarea> -->
+                <button id="sendButton" class="material-symbols-outlined">
+                  send
+                </button>
+                <!-- <button class="material-symbols-outlined" id="deleteButton">
+                  delete
+                </button> -->
+              </div>
+            </form>
+          </section>
+        </div>
+      </main>
+    </div>
+    <!-- <section class="chats"></section>
+
+    <section class="prompt">
+      <form action="#" class="prompt__form" novalidate>
+        <div class="prompt__input-wrapper">
+          
+          <button class="prompt__form-button" id="sendButton">
+            <i class="bx bx-send"></i>
+          </button>
+          <button class="prompt__form-button" id="deleteButton">
+            <i class="bx bx-trash"></i>
+          </button>
+        </div>
+      </form>
+    </section> -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="final.js"></script>
+  </body>
+</html>

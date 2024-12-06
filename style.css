@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Space+Grotesk:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Hero Page Start */
+
+/* Page 2 onward */
+
+.page {
+  height: 100vh;
+  width: 100%;
+  background-color: #eee;
+  /* border:2px solid white; */
+}
+#page2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#feature-heading {
+  color: #121212;
+  font-size: 3.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#feature-box {
+  height: 85vh;
+  width: 90vw;
+  background-color: #dcdcdc;
+  border-radius: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border:0.5px solid white;  */
+  gap: 4em;
+}
+
+#feature-container {
+  width: 70vw;
+  height: auto;
+  /* background-color: #bababa61; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0.5em;
+  /* gap:1em; */
+}
+.feature {
+  /* border:0.5px solid white;  */
+  width: 20em;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.2em;
+  font-size: 1.5em;
+}
+.feature .card {
+  aspect-ratio: 1/1;
+  width: 45%;
+  border: 1px solid;
+  border-radius: 1.5em;
+  border-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feature:nth-child(1) {
+  color: #5d2505;
+  text-align: center;
+}
+.feature:nth-child(2) {
+  color: #55045b;
+  text-align: center;
+}
+.feature:nth-child(3) {
+  text-align: center;
+  color: #005200;
+}
+#card1 {
+  background-color: #fff9b5;
+}
+#card2 {
+  background-color: #eab7db;
+}
+#card3 {
+  background-color: #daf5d4;
+}
+
+.card img {
+  height: 60%;
+  aspect-ratio: 1/1;
+}
+
+/* Next Page */
+#page3 {
+  background-color: #eeeeee;
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+#tech {
+  /* margin-top: 2em; */
+  width: 100%;
+  height: 10%;
+  background-color: #e1e1e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10em;
+  padding: 3em;
+}
+
+/* New Page */
+
+#page5 {
+  width: 100%;
+  height: 50%;
+  background-color: #dcdcdc;
+}
+#trynow {
+  width: 100%;
+  height: 85%;
+}
+#copyright {
+  height: 15%;
+  width: 100%;
+  background-color: #dcdcdc;
+  border-top: 1px solid #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#copyright h3 {
+  font-size: 1em;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #121212;
+}
+#trynow {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 9em;
+}
+#bottomlogo {
+  /* border: 0.1px dashed; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  height: 60%;
+}
+#btmlogo {
+  font-size: 5em;
+}
+#btmnav {
+  font-size: 1em;
+  font-weight: 100;
+  transform: translateX(-2.2em);
+}
+
+#socials {
+  /* border: 0.1px dashed; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  width: 25%;
+  height: 60%;
+  font-size: 0.75em;
+}
+.social-icon {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 1.5em 0.75em;
+  font-size: 0.25em;
+}
+
+/* New page */
+
+#page4 {
+  position: relative;
+}
+#magic-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3em;
+  text-align: center;
+}
+#magic-text h1 {
+  font-size: 3.5em;
+}
+#magic-text #try-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  padding: 0.2em;
+  padding-left: 1em;
+  gap: 0.75em;
+  border-radius: 50px;
+  border: 1.5px solid #121212;
+}
+#magic-text #try-btn img {
+  height: 3.5em;
+}
+
+#magicstar {
+  position: absolute;
+  top: 20%;
+  left: 16%;
+}
+#magicstar svg {
+  width: 18em;
+}
+#magicwand {
+  position: absolute;
+  bottom: 20%;
+  right: 20%;
+}
+#magicwand svg {
+  width: 18em;
+}
