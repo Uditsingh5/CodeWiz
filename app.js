@@ -128,3 +128,23 @@ tl.from('#feature-container .feature', {
     duration: 1,
     stagger: 0.3
 })
+
+const swiper = new Swiper('.container', {
+    slidesPerView:3,
+    spaceBetween:30,
+    centeredSlides:true,
+    grabCursor:true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable:true,
+      dynamicBullets:true,
+    },    
+    direction: 'horizontal',
+    loop: true,
+  
+    
+  });

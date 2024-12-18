@@ -19,7 +19,8 @@ function autoResize() {
 }
 
 // API setup
-const API_KEY = "AIzaSyDvKyxgHu1lPrW6HkuwvvJaGgZPf6-b8pY";
+// const API_KEY = "AIzaSyDvKyxgHu1lPrW6HkuwvvJaGgZPf6-b8pY";
+const API_KEY = "AIzaSyBeFz9OASs6e6o5458yUSfDjTrTjSpt9lY";
 const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
 
 
