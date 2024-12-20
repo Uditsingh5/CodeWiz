@@ -28,7 +28,7 @@
   --dark-mainhead: #eaeaea;
   --dark-sectxt: #b0b0b0;
   --dark-terttxt: #8c8c8c;
-  --dark-placeholder: #d2d2d2;
+  --dark-placeholder: #949494b4;
   --dark-cta: #ffffff;
 }
 
@@ -197,11 +197,15 @@ nav {
   font-size: 1.5em;
   align-items: center;
   justify-content: space-between;
-  padding: 1em 10%;
+  padding: 0.4em 10%;
   position: relative;
 }
 nav h1 {
   font-weight: 900;
+}
+#logo a{
+  text-decoration: none;
+  color: var(--dark-mainhead);
 }
 
 .right-nav {
@@ -252,12 +256,12 @@ nav h1 {
 
 .wrapper {
   width: 80%; /*95%*/
-  height: 80vh;
+  height: 84vh;
   /* border: 0.001px solid var(--light-grayborder); */
   border: 0.001px solid var(--dark-grayborder);
   border-radius: 2rem;
   margin: auto;
-  margin-top: 0.1rem;
+  /* margin-top: 0.1rem; */
   position: relative;
   /* background-color: var(--light-secbg); */
   background-color: var(--dark-secbg);
@@ -338,6 +342,7 @@ nav h1 {
   padding: 1rem;
   font-size: 1.7em;
   border-radius: 2rem;
+  border:0.5px solid black;
   color: #111;
   /* background-color: var(--light-cta); */
   background-color: var(--dark-cta);
